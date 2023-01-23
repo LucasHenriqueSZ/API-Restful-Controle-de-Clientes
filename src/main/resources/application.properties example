@@ -1,0 +1,5 @@
+spring.jpa.database=""
+spring.datasource.platform=""
+spring.datasource.url= ""
+spring.datasource.username=""
+spring.datasource.password=""
