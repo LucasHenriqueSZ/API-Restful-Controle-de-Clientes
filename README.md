@@ -46,7 +46,6 @@
     * `500` : Parâmetros invalidos.
     * `400` : Json incorreto.
   
----
 
 ## Consulta de cliente
 
@@ -76,7 +75,6 @@
     * `404` : Cliente não encontrado.
     * `400` : ID inválido.
 
----
 
 ## Lista de Clientes
 
@@ -121,7 +119,6 @@
       
     * `200` : Lista consultada com sucesso.
  
----
 
 ## Alteração de Cliente
 
@@ -155,7 +152,6 @@
     * `500` : Não foi possivel alterar o cliente. Parâmetros invalidos.
 
      
----
 
 ## Deletar Cliente
 
@@ -173,7 +169,6 @@
     * `500` : Não foi possivel deletar o cliente. Cliente não encontrado.
     * `400` : ID inválido.
 
----
 
   ## Pesquisar cliente por nome
 
