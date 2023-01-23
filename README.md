@@ -3,12 +3,12 @@
 
 ### Funcionalidades
 
-- [Cadastro de Cliente](##Cadastro-de-Cliente)
-- [Consulta de cliente](##Consulta-de-cliente)
-- [Lista de Clientes](##Lista-de-Clientes)
-- [Alteração de Cliente](##Alteração-de-Cliente)
-- [Deletar Cliente](##Deletar-Cliente)
-- [ Pesquisar cliente por nome](##Pesquisar-cliente-por-nome)
+- [Cadastro de Cliente](#Cadastro-de-Cliente)
+- [Consulta de cliente](#Consulta-de-cliente)
+- [Lista de Clientes](#Lista-de-Clientes)
+- [Alteração de Cliente](#Alteração-de-Cliente)
+- [Deletar Cliente](#Deletar-Cliente)
+- [ Pesquisar cliente por nome](#Pesquisar-cliente-por-nome)
 
 
 ### Tecnologias 👨‍💻:
@@ -19,7 +19,7 @@
 
 ## Cadastro de Cliente
 
-```http
+```
   POST /v1/cadastroCliente 
 ```
 
@@ -50,7 +50,7 @@
 
 ## Consulta de cliente
 
-```http
+```
   GET /v1/cliente/{id}
 ```
 
@@ -80,7 +80,7 @@
 
 ## Lista de Clientes
 
-```http
+```
   GET /v1/clientes
 ```
 - Response body:
@@ -125,7 +125,7 @@
 
 ## Alteração de Cliente
 
-```http
+```
   PUT /v1/alterarCliente/{id}
 ```
 
@@ -159,7 +159,7 @@
 
 ## Deletar Cliente
 
-```http
+```
   DELETE /v1/deletarCliente/{id}
 ```
 
@@ -177,7 +177,7 @@
 
   ## Pesquisar cliente por nome
 
-```http
+```
   GET /v1/clienteNome/{nome}
 ```
 
