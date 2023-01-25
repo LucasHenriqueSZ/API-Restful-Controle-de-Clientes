@@ -1,5 +1,5 @@
 
-## API Restful cotrole de clientes
+## API Restful controle de clientes
 
 ### Funcionalidades
 
