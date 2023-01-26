@@ -1,14 +1,14 @@
 
-## API Restful cotrole de clientes
+## API Restful controle de clientes
 
 ### Funcionalidades
 
-- [Cadastro de Cliente](##Cadastro-de-Cliente)
-- [Consulta de cliente](##Consulta-de-cliente)
-- [Lista de Clientes](##Lista-de-Clientes)
-- [Alteração de Cliente](##Alteração-de-Cliente)
-- [Deletar Cliente](##Deletar-Cliente)
-- [ Pesquisar cliente por nome](##Pesquisar-cliente-por-nome)
+- [Cadastro de Cliente](#Cadastro-de-Cliente)
+- [Consulta de cliente](#Consulta-de-cliente)
+- [Lista de Clientes](#Lista-de-Clientes)
+- [Alteração de Cliente](#Alteração-de-Cliente)
+- [Deletar Cliente](#Deletar-Cliente)
+- [ Pesquisar cliente por nome](#Pesquisar-cliente-por-nome)
 
 
 ### Tecnologias 👨‍💻:
@@ -19,7 +19,7 @@
 
 ## Cadastro de Cliente
 
-```http
+```
   POST /v1/cadastroCliente 
 ```
 
@@ -46,11 +46,10 @@
     * `500` : Parâmetros invalidos.
     * `400` : Json incorreto.
   
----
 
 ## Consulta de cliente
 
-```http
+```
   GET /v1/cliente/{id}
 ```
 
@@ -76,11 +75,10 @@
     * `404` : Cliente não encontrado.
     * `400` : ID inválido.
 
----
 
 ## Lista de Clientes
 
-```http
+```
   GET /v1/clientes
 ```
 - Response body:
@@ -121,11 +119,10 @@
       
     * `200` : Lista consultada com sucesso.
  
----
 
 ## Alteração de Cliente
 
-```http
+```
   PUT /v1/alterarCliente/{id}
 ```
 
@@ -155,11 +152,10 @@
     * `500` : Não foi possivel alterar o cliente. Parâmetros invalidos.
 
      
----
 
 ## Deletar Cliente
 
-```http
+```
   DELETE /v1/deletarCliente/{id}
 ```
 
@@ -173,11 +169,10 @@
     * `500` : Não foi possivel deletar o cliente. Cliente não encontrado.
     * `400` : ID inválido.
 
----
 
   ## Pesquisar cliente por nome
 
-```http
+```
   GET /v1/clienteNome/{nome}
 ```
 
