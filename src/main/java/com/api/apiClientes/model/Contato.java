@@ -2,11 +2,9 @@ package com.api.apiClientes.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 
@@ -26,9 +24,6 @@ public class Contato {
     @Column(name = "texto")
     @NotBlank(message = "o texto deve ser preenchido")
     private String texto;
-
-   @OneToOne(fetch = FetchType.LAZY, mappedBy = "contato")
-     private Cliente cliente;
 
     public Integer getId() {
         return id;
@@ -52,14 +47,6 @@ public class Contato {
 
     public void setTexto(String texto) {
         this.texto = texto;
-    }
-
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
     }
      
 }

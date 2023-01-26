@@ -84,5 +84,4 @@ public class MappersImplements implements StructsMappers {
         }
         return list;
     }
-
 }

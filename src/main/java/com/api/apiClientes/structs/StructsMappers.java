@@ -2,15 +2,11 @@ package com.api.apiClientes.structs;
 
 import java.util.List;
 
-import org.mapstruct.Mapper;
-
 import com.api.apiClientes.model.Cliente;
 import com.api.apiClientes.model.Contato;
 import com.api.apiClientes.structs.dtos.ClienteGetDto;
 import com.api.apiClientes.structs.dtos.ClientePostDto;
 import com.api.apiClientes.structs.dtos.ContatoDto;
-
-@Mapper(componentModel = "spring") 
 
 public interface StructsMappers {
 
